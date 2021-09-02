@@ -7,14 +7,17 @@
     // example
     // {
     //   "type": "node", //node process
-    //   "request": "launch", // start 
+    //   "request": "launch", // start
     //   "name": "Launch API", // menu name
     //   "skipFiles": [
     //     "<node_internals>/**" // magic files releated to node ignore
     //   ],
     //   "runtimeExecutable": "npm", // use npm to start the node process
     //   "runtimeArgs": ["run", "api:start"], // pass these parameters to npm
-    //   "port": 9005 // use this port for the debugger
+    //   "port": 9005, // use this port for the debugger
+        // "presentation": {
+        //   "hidden":true //hide from debug menu
+        // }
     // },
   ],
   "compounds": [// allow you to start multiple apps
