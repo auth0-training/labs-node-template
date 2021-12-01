@@ -52,4 +52,6 @@ jobs:
     
     - name: Push Image to GitHub Registry
       run: |
+        echo "tags: ${{ steps.meta.outputs.tags }}"
+        echo "labels: ${{ steps.meta.outputs.labels }}"
         docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
