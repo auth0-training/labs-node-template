@@ -13,7 +13,7 @@
     "url": "git+https://github.com/auth0-training/labs-node-template.git"
   },
   "scripts": {
-
+    "init": "echo 'This is a template, please updated based on what is needed.'"
   },
   "keywords": [
     "auth0",
